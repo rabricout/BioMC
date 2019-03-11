@@ -1,0 +1,7 @@
+ - Bug du 0-padding
+ - Images non-naturelles
+ - défauts des autres méthodes (state of the art)
+ - structure du réseau
+ - ajout de bruit
+ - couches convolutives
+ - batch normalization

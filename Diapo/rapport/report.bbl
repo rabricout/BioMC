@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{bertalmio2000}
+Marcelo Bertalmio, Guillermo Sapiro, Vincent Caselles, and Coloma Ballester.
+\newblock Image inpainting.
+\newblock {\em Proceedings of the 27th annual conference on Computer graphics
+  and interactive techniques}, pages 417--424, 2000.
+
+\bibitem{bobenko2005}
+Alexander~I Bobenko and Peter Schr{\"o}der.
+\newblock Discrete willmore flow.
+\newblock 2005.
+
+\bibitem{darabi2012}
+Soheil Darabi, Eli Shechtman, Connelly Barnes, Dan~B Goldman, and Pradeep Sen.
+\newblock Image melding: Combining inconsistent images using patch-based
+  synthesis.
+\newblock {\em ACM Trans. Graph.}, 31(4):82--1, 2012.
+
+\bibitem{efros1999}
+Alexei~A Efros and Thomas~K Leung.
+\newblock Texture synthesis by non-parametric sampling.
+\newblock {\em iccv}, page 1033, 1999.
+
+\bibitem{goodfellow2014}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock Generative adversarial nets.
+\newblock {\em Advances in neural information processing systems}, pages
+  2672--2680, 2014.
+
+\bibitem{harary2014}
+Gur Harary, Ayellet Tal, and Eitan Grinspun.
+\newblock Context-based coherent surface completion.
+\newblock {\em ACM Transactions on Graphics (TOG)}, 33(1):5, 2014.
+
+\bibitem{masnou1998}
+Simon Masnou and J-M Morel.
+\newblock Level lines based disocclusion.
+\newblock {\em Image Processing, 1998. ICIP 98. Proceedings. 1998 International
+  Conference on}, pages 259--263, 1998.
+
+\bibitem{pathak2016}
+Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, and Alexei~A
+  Efros.
+\newblock Context encoders: Feature learning by inpainting.
+\newblock {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 2536--2544, 2016.
+
+\bibitem{Staline}
+J.~Staline.
+\newblock The commissar vanishes.
+\newblock {\em How to deal with politic opponents}, 1940.
+
+\bibitem{wexler2007}
+Yonatan Wexler, Eli Shechtman, and Michal Irani.
+\newblock Space-time completion of video.
+\newblock {\em IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  (3):463--476, 2007.
+
+\end{thebibliography}

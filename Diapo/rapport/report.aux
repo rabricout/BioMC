@@ -1,0 +1,66 @@
+\relax 
+\citation{Staline}
+\citation{masnou1998}
+\citation{bertalmio2000}
+\citation{efros1999}
+\citation{darabi2012}
+\citation{bertalmio2000}
+\citation{wexler2007}
+\citation{bobenko2005}
+\citation{harary2014}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Etat de l'art}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Aper\IeC {\c c}u du papier}{1}}
+\citation{pathak2016}
+\citation{goodfellow2014}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Fonctionnement du r\IeC {\'e}seau}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Structure du r\IeC {\'e}seau}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of the architecture\relax }}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Entrainement}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Observation sur des exemples}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Dataset utilis\IeC {\'e} pour entrainement : Places2}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Randomly chosen images from Places2\relax }}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Diff\IeC {\'e}rentes formes de masques}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax }}{4}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:occlus_dynamic}{{3}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Visage (CelebA)}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces inputs et outputs (sans postprocess) d'un visage. A gauche, les yeux sont rempla\IeC {\c c}\IeC {\'e}s par une texture pas tr\IeC {\`e}s convainquante; \IeC {\`a} droite, il y a un artefact \IeC {\'e}vident\relax }}{4}}
+\newlabel{fig:occlus_dynamic}{{4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Zero-Padding}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces inputs et outputs (sans postprocess) \IeC {\`a} une distance de 0 pixel, 3 pixels, 6 pixels du bord. Seul le dernier cas est convainquant, les autres ont des artefacts \IeC {\'e}vidents\relax }}{5}}
+\newlabel{fig:occlus_dynamic}{{5}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Modification du r\IeC {\'e}seau}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Rajouter du bruit dans les couches}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}Test avec une image de r\IeC {\'e}f\IeC {\'e}rence sur les diff\IeC {\'e}rentes couches}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Exemples de couches de batch normalisation, avec sur la premi\IeC {\`e}re ligne la couche 2 et sur la deuxi\IeC {\`e}me ligne la couche 47. Les bruits sont class\IeC {\'e}s horizontalement : 0, 0.14 et 0.28\relax }}{6}}
+\newlabel{fig:occlus_dynamic}{{6}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces R\IeC {\'e}ponse des couches de convolution avec un bruit. De haut en bas nous avons les couches 1, 4 et 16. De gauche \IeC {\`a} droite nous avons le masque, et les bruits de 0, 0.14 et 0.28\relax }}{7}}
+\newlabel{fig:occlus_dynamic}{{7}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces R\IeC {\'e}ponse des couches de convolution dilat\IeC {\'e}es avec un bruit. De haut en bas nous avons les couches 22 et 26. De gauche \IeC {\`a} droite nous avons le masque, et les bruits de 0, 0.14 et 0.28\relax }}{8}}
+\newlabel{fig:occlus_dynamic}{{8}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Questions additionnelles}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Implementation}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Mat\IeC {\'e}riel utilis\IeC {\'e}}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Cr\IeC {\'e}ateur de masques}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Capture d'\IeC {\'e}cran du programme\relax }}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Code}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Statistiques}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Bonus}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Test du r\IeC {\'e}seau sur des images non naturelles}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces inputs et outputs (sans postprocess) sur une image ayant un style particulier (type pastel).\relax }}{10}}
+\newlabel{fig:occlus_dynamic}{{10}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces inpainting (sans postprocess) de la nuit \IeC {\'e}toil\IeC {\'e}e de Van Gogh\relax }}{11}}
+\newlabel{fig:occlus_dynamic}{{11}{11}}
+\bibstyle{plain}
+\bibdata{bib}
+\bibcite{bertalmio2000}{1}
+\bibcite{bobenko2005}{2}
+\bibcite{darabi2012}{3}
+\bibcite{efros1999}{4}
+\bibcite{goodfellow2014}{5}
+\bibcite{harary2014}{6}
+\bibcite{masnou1998}{7}
+\bibcite{pathak2016}{8}
+\bibcite{Staline}{9}
+\bibcite{wexler2007}{10}
