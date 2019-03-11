@@ -45,11 +45,11 @@ Génération de contenu (DCGAN)
 
 
 ### A quoi ressemble un réseau de neurones
-<image src="./rapport/Images/Reseau.png" control style="width:100%"></image>
+<image src="./rapport/Images/Reseau_MLP.png" control style="width:100%"></image>
 
 
 ### A quoi ressemble un réseau de neurones
-<image src="./rapport/Images/Reseau_MLP.png" control style="width:100%"></image>
+<image src="./rapport/Images/Reseau.png" control style="width:100%"></image>
 
 
 ### Le deep learning
