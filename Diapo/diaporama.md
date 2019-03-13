@@ -1,7 +1,10 @@
 ## BCM
-#### Introduction au Deep Learning
-Raphaël Bricout
+### Introduction au Deep Learning
+*Raphaël Bricout*
 
+
+
+## Pourquoi le deep learning ?
 
 
 #### Pourquoi le deep learning ?
@@ -36,6 +39,9 @@ Génération de contenu (DCGAN)
 
 
 
+## Grands principes du deep learning
+
+
 ### Pour s'y retrouver
 <image src="./rapport/Images/ensembles.png" control style="width:80%"></image>
 
@@ -57,7 +63,7 @@ Génération de contenu (DCGAN)
  - de très bons résultats
  - peu de théorie
 
-*Ça fonctionne, mais on ne sait pas vraiment pourquoi...*
+*Ça fonctionne bien, mais on ne sait pas exactement pourquoi...*
 
 
 
@@ -67,7 +73,7 @@ Génération de contenu (DCGAN)
 ### Les données
 Il faut : 
  - beaucoup de données
- - des données annotées
+ - des données annotées (de préférence)
  - savoir manipuler ses données
 
 
@@ -107,7 +113,7 @@ Entre deux solutions qui donnent des **résultats comparables**, privilégier la
  - explosion combinatoire en grande dimension
  - ex : images de $16\times16$ pixels: 
   - dimension de $256$
-  - nombre d'images possibles ~$10^{77}$
+  - nombre d'images possibles $\approx10^{77}$
 
 
 ### Morale
@@ -123,7 +129,8 @@ Pour faire du "big data", il faut :
 
 ### Le D.L. s'applique bien à la biologie
  - une très grande quantité de données
- - un format qui est bien adapté (séquence de lettres)
+ - des formats adaptés (eg. lettres, arbres)
+ - on a de la théorie pour comprendre les données
 
 
 ### Exemples
@@ -131,6 +138,9 @@ Pour faire du "big data", il faut :
  - biologie des systèmes
  - génomique
  - génétique
+ - phylogénie
+ - interactions protéines - ARN
+ - analyse de fréquences
 
 
 
@@ -144,7 +154,7 @@ Images:
 
 ### Crédits
 Papiers:
- - Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised representation learning with deep convolutional generative adversarial networks.
+ - Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised representation learning with DCGAN.
  - Iizuka, S., Simo-Serra, E., & Ishikawa, H. (2017). Globally and locally consistent image completion.
- - Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., & Riedmiller, M. (2013). Playing atari with deep reinforcement learning.
+ - Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., & Riedmiller, M. (2013). Playing atari with deep RL.
  
