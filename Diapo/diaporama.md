@@ -129,7 +129,7 @@ Pour faire du "big data", il faut :
 
 ### Le D.L. s'applique bien à la biologie
  - une très grande quantité de données
- - des formats adaptés (eg. lettres, arbres)
+ - des formats adaptés (eg. lettres, arbres, graphes)
  - on a de la théorie pour comprendre les données
 
 
